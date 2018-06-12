@@ -51,7 +51,8 @@ Vue.component('my-cmp', {
 
 ```js
 var language = 'Javascript';
-var expression = 'I love ' + language + '!'; // I love Javascript!
+var expression = 'I love ' + language + '!';
+console.log(expression); // I love Javascript!
 ```
 
 위와 같이 문자열에 특정 변수의 값을 함께 사용하려면 `+`를 이용하여 문자열 중간에 해당 변수를 연결해줘야 했습니다.
@@ -60,14 +61,16 @@ ES6에서는 템플릿 리터럴을 이용하면 아래와 같이 간편하게 �
 
 ```js
 var language = 'Javascript';
-var expression = `I love ${language}!`; // I love Javascript!
+var expression = `I love ${language}!`;
+console.log(expression); // I love Javascript!
 ```
 
 `${}`를 이용하면 위와 같이 변수의 값을 대입할 수 있을 뿐만 아니라 간단한 연산도 할 수 있습니다.
 
 ```js
 var language = 'Javascript';
-var expression = `I love ${language.split('').reverse().join('')}!`; // I love tpircsavaJ!
+var expression = `I love ${language.split('').reverse().join('')}!`;
+console.log(expression); // I love tpircsavaJ!
 ```
 
 위 코드는 `language`의 문자열 순서를 역으로 바꾸는 코드입니다.

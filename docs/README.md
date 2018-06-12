@@ -1,12 +1,16 @@
-# Vue.js를 위한 ES6 입문서
-
-Vue.js로 코딩할 때 코드를 더 간편하고 빠르게 구현할 수 있는 방법인 ES6 주요 문법에 대해 알아봅니다.
-
-다루는 문법은 다음과 같습니다.
-
-- const & let : 새로운 변수 선언 방식
-- 화살표 함수 : 함수를 더 편하게 정의하는 방법
-- 향상된 객체 리터럴 : 객체를 더 편하게 정의하는 방법
-- 산개 연산자 : 인자를 편하게 넘기는 방법
-- 템플릿 리터럴 : 문자열을 편하게 정의하는 방법
-- 구조 분해 문법 : 객체, 인자를 편하게 정의하고 넘기는 방법
+---
+title: Vue.js 개발자를 위한 ES6 입문서
+lang: en-US
+home: true
+heroImage: logo.png
+actionText: 배우기 시작 →
+actionLink: /es6/guide
+# features:
+# - title: Simplicity First
+#   details: Minimal setup with markdown-centered project structure helps you focus on writing.
+# - title: Vue-Powered
+#   details: Enjoy the dev experience of Vue + webpack, use Vue components in markdown, and develop custom themes with Vue.
+# - title: Performant
+#   details: VuePress generates pre-rendered static HTML for each page, and runs as an SPA once a page is loaded.
+footer: MIT Licensed | Copyright © 2018-present Captain Pangyo
+---

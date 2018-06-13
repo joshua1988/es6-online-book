@@ -4,6 +4,7 @@
   },
   "scripts": {
     "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "docs:build": "vuepress build docs",
+    "deploy": "git subtree push --prefix docs/.vuepress/dist origin gh-pages"
   }
 }

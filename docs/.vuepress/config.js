@@ -10,17 +10,17 @@ module.exports = {
   ],
   themeConfig: {
     sidebar: [
-      '/es6/guide',
-      '/es6/const-let',
-      '/es6/fat-arrow',
-      '/es6/enhanced-object-literals',
-      '/es6/spread-operator',
-      '/es6/template-literal',
-      '/es6/destructuring',
+      '/guide',
+      '/const-let',
+      '/fat-arrow',
+      '/enhanced-object-literals',
+      '/spread-operator',
+      '/template-literal',
+      '/destructuring',
     ],
     nav: [{
         text: 'Guide',
-        link: '/es6/guide'
+        link: '/guide'
       },
       {
         text: 'Video',

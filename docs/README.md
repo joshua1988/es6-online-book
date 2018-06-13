@@ -4,7 +4,7 @@ lang: en-US
 home: true
 heroImage: logo.png
 actionText: 배우기 시작 →
-actionLink: /es6/guide
+actionLink: /guide
 # features:
 # - title: Simplicity First
 #   details: Minimal setup with markdown-centered project structure helps you focus on writing.

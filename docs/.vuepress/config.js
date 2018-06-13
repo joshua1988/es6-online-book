@@ -1,7 +1,8 @@
 module.exports = {
   title: 'Vue.js + ES6',
   description: 'Vue.js 개발자를 위한 ES6 입문서(무료)',
-  base: "/es6-online-book/",
+  base: "/",
+  dest: "./dist",
   head: [
     ['link', {
       rel: 'icon',

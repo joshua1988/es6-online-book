@@ -12,6 +12,5 @@ Vue.js로 코딩할 때 코드를 더 간편하고 빠르게 구현할 수 있�
 - [구조 분해 문법](destructuring.html) : 객체, 인자를 편하게 정의하고 넘기는 방법
 
 ::: tip
-이 부분 활용할거면 아래 링크 클릭
-[링크](https://vuepress.vuejs.org/guide/markdown.html#custom-containers)
+ES6는 ECMAScript 2015를 의미합니다.
 :::

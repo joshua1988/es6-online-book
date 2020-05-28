@@ -1,10 +1,12 @@
 {
   "devDependencies": {
-    "vuepress": "^0.10.1"
+    "@vuepress/plugin-google-analytics": "^1.2.0",
+    "@vuepress/plugin-pwa": "^1.2.0",
+    "vuepress": "^1.2.0"
   },
   "scripts": {
-    "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs",
+    "doc": "vuepress dev docs",
+    "build": "vuepress build docs",
     "deploy": "git subtree push --prefix docs/.vuepress/dist origin gh-pages"
   }
 }
